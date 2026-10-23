@@ -1,0 +1,23 @@
+{
+  "test_accuracy": 0.9534883720930233,
+  "test_precision_benign": 0.9464285714285714,
+  "test_recall_benign": 0.9814814814814815,
+  "test_f1_benign": 0.9636363636363636,
+  "test_roc_auc_benign": 0.990162037037037,
+  "test_samples": 86,
+  "selected_configuration": 2,
+  "selected_hyperparameters": {
+    "hidden_layer_sizes": [
+      64,
+      32
+    ],
+    "alpha": 0.0001,
+    "learning_rate_init": 0.001
+  },
+  "split_sizes": {
+    "train": 398,
+    "validation": 85,
+    "test": 86
+  },
+  "random_seed": 42
+}
